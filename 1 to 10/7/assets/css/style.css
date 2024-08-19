@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(#F3F3F3, #E7E7E7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 1%;
+    border-radius: 4%;
+    background-color: #FFFFFF;
+}
+.card-img{
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+    width: 100%;
+    height: auto;
+}
+.reviews-section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.save-icon{
+    border-radius: 100%;
+    text-align: right;
+    justify-self: end;
+    margin-top: 10%;
+}
+.reviews-text{
+    color: #909194;
+}
+.reviews-sectio-first-half{
+    display: flex;
+}
+.data{
+    display: flex;
+}
+.lessons{
+    display: flex;
+    background-color: #F1F1F1;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.lessons-text{
+    color: #9E9B93 ;
+}
+#students{
+    border-left: 1px #9E9B93 solid;
+}
+.desc{
+    color: #9E9B93;
+}
+.card-body{
+    margin: 6%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+.profile-pic{
+    display: inline-block;
+}
+.author{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    top: 74%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-foot{
+    margin-top: 30px;
+    border-top: #9E9B93 solid 1px;   
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    display: flex;;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.old-price{
+    color: #909194;
+    text-decoration: line-through;
+    
+}
+.new-price{
+    margin-left: 16%;
+
+    color: #D3093C;
+}
+.details{
+    background-color: transparent;
+    border: none;
+    color: #909194;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 43%;
+}

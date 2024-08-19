@@ -1,0 +1,30 @@
+body{
+    font-family: Rubik;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+    border: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: rgb(204, 202, 202);
+}
+.item{
+    border: 1px;
+    border-style: solid;
+    border-left: 0cap;
+    border-color: rgb(204, 202, 202);
+    padding: 30px;
+}
+.text{
+    font-size: x-small;
+}
+.nums{
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image{
+    grid-row: span 2;
+}

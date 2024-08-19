@@ -1,0 +1,83 @@
+body{
+    background-image: url(../imgs/f3cdff639985808e5950c776fca078fd.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Rubik;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    color: aliceblue;
+}
+.title::after{
+    content: "";
+    border: 1px solid #fdc236;
+    position: absolute;
+    width: 30px;
+    top: 66px;
+    right: 49%;
+}
+.container::before{
+    content:"⇦";
+    text-align: center;
+    position: absolute;
+    color:  rgb(103, 103, 103);
+    font-size: 60px;
+    border: 3px rgb(137, 136, 136) solid;
+    border-radius: 100%;
+    width: 70px;
+    height: 60px;
+    padding-bottom: 15px;
+    left: 120px;
+    top: 225px;
+}
+.container::after{
+    content: "⇨";
+    text-align: center;
+    position: absolute;
+    color:  rgb(103, 103, 103);
+    font-size: 60px;
+    border: 3px rgb(137, 136, 136) solid;
+    border-radius: 100%;
+    width: 70px;
+    height: 60px;
+    padding-bottom: 15px;
+    right:  120px;
+    top: 225px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 226, 233);
+    margin: 10px;
+    width: 20%;
+}
+.desc{
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: small
+}
+.subtitle{
+    
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.students{
+font-size: small;
+}
+.fee{
+
+    font-size: small;
+}

@@ -1,0 +1,55 @@
+body{
+    font-family: Rubik;
+    /* background-color: beige; */
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.section-begin{
+    text-align: center;
+    font-weight:100;
+    font-size: 100%;
+    color:#FF3838;
+}
+.title{
+    margin-top: 0%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+.card{
+    border: gray solid 2px;
+    border-radius: 3%;
+    margin: 20px;
+}
+.card-image{
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    border: none;
+    /* border: #FF3838 solid 3px; */
+}
+.author-date{
+    display: flex;
+}
+.date{
+    margin-left: 5%;
+}
+.read-more{
+    border: none;
+    background-color: transparent;
+}
+.card-body{
+    position: relative;
+    /* display: none; */
+    /* border: red solid 2px; */
+    /* bor */
+    /* border-left: #EBEBED solid 2px;
+    border-right: #EBEBED solid 2px; */
+    padding: 5%;
+    /* box-shadow: 5px 5px 0px red; */
+}

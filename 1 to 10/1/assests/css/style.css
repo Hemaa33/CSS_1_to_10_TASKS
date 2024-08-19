@@ -1,0 +1,24 @@
+.grid-container-service{
+    font-family: Open Sans;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-item-service{
+    text-align:left;
+    font-size:larger;
+    margin: 25px;
+}
+.grid-title{
+    text-align:center;
+    font-size:larger;
+    grid-column: span 6;
+    margin: 50px;
+}
+.grid-title::after{
+    content: "";
+    position:absolute;
+    width: 4.5%;
+    border-bottom: 4px solid #FFBC13;
+    left: 48%;
+    top: 19%;
+}
